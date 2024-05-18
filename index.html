@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>TriDevTech</title>
+</head>
+<body>
+    <div class="logo-text">TriDevTech</div>
+    <div class="quadrado-inclinado"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Quem Somos</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <h1>Transformando ideias em inovações digitais!</h1>
+            <p>A TriDevTech é uma equipe dinâmica de desenvolvedores apaixonados pela criação de soluções digitais inovadoras.</p>
+            <button id="openFormButton">Faça já seu orçamento</button>
+            <div id="overlay"></div>
+            <div id="formModal">
+                <button id="closeFormButton"></button>
+                <form id="budgetForm">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="text" name="subject" placeholder="Assunto" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" placeholder="Telefone" required>
+                    <textarea name="message" placeholder="Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+        </section>
+        <section class="about" id="about">
+            <h2>Quem Somos</h2>
+            <p>A TriDevTech é uma equipe apaixonada por tecnologia, especializada em desenvolvimento web completo, incluindo front-end, back-end e banco de dados. Nosso objetivo é criar experiências digitais excepcionais, combinando criatividade e expertise técnica para impulsionar o sucesso dos projetos de nossos clientes.</p>
+            <ul>
+                <li>
+                    <img src="img/danilo.jpg" alt="Fabricio">
+                    <h3>Danilo</h3>
+                    <p>Desenvolvedor Front-end</p>
+                </li>
+                <li>
+                    <img src="img/fabricio.jpg" alt="Danilo">
+                    <h3>Fabricio</h3>
+                    <p>Desenvolvedor Back-end</p>
+                </li>
+                <li>
+                    <img src="img/matheus.jpg" alt="Mateus">
+                    <h3>Mateus</h3>
+                    <p>Gerente de Bancos de Dados</p>
+                </li>
+            </ul>
+        </section>
+        <section class="services" id="services">
+            <h2>Serviços</h2>
+            <ul>
+                <li>
+                    <img src="img/front.png" alt="Front-end">
+                    <h3>Front-end</h3>
+                    <p>Nós oferecemos serviços de front-end para criar interfaces intuitivas e atraentes para suas aplicações web.</p>
+                </li>
+                <li>
+                    <img src="img/back.jpeg" alt="Back-end">
+                    <h3>Back-end</h3>
+                    <p>Nós oferecemos serviços de back-end para desenvolver a lógica e a funcionalidade robusta por trás das suas aplicações web.</p>
+                </li>
+                <li>
+                    <img src="img/banco.jpg" alt="Gerenciamento de Bancos de Dados">
+                    <h3>Gerenciamento de Bancos de Dados</h3>
+                    <p>Nós fornecemos serviços de banco de dados para garantir o armazenamento seguro e eficiente dos dados essenciais para suas aplicações.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2>Portfólios</h2>
+            <ul>
+                <li>
+                    <a href="https://mateusscg.github.io/Portifolio/">
+                        <img src="img/matheus.jpg" alt="Projeto 1">
+                        <h3>Portfólio Mateus</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://danilomedeiiros.github.io/meu-port/">
+                        <img src="img/danilo.jpg" alt="Projeto 2">
+                        <h3>Portfólio Danilo</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://fabricioops.github.io/portfolio2.0/">
+                        <img src="img/fabricio.jpg" alt="Projeto 3">
+                        <h3>Portfólio Fabricio</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contato Comercial</h3>
+                <p>Telefone: (79) 00000-0000</p>
+                <p>Email: comercial@tridevtech.com</p>
+            </div>
+            <div class="social-icons">
+                <a href="" class="icon facebook"><img src="img/face.png" alt="Facebook"></a>
+                <a href="" class="icon twitter"><img src="img/twit.png" alt="Twitter"></a>
+                <a href="" class="icon instagram"><img src="img/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
